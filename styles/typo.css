@@ -1,0 +1,21 @@
+body {
+    font-family: 'Pangolin', cursive;
+    color: #CD821D;
+}
+
+h1 {
+  font-family: 'Pangolin', cursive;
+  margin: 1.414em 1 0,5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  margin-top: 0,5;
+  font-size: 3.998em;
+}
+
+p {
+font-family: 'Pangolin', cursive;
+font-size: 55px;
+font-weight:600;
+color: #44555c;
+margin: 0.6667em 0;
+}
