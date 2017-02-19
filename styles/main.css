@@ -1,0 +1,260 @@
+body {
+  background : url("image02.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+header {
+  overflow: hidden;
+  background: #e6b220;
+  background: rgba(255,255,255,0.3);
+}
+
+#logo {
+  width : 350px;
+  float: left;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+  display: block;
+  float:  right;
+  padding: 2em;
+  color: #44555c;
+}
+
+a.button {
+	-moz-box-shadow: 0px 0px 20px 0px #FED01A;
+	-webkit-box-shadow: 0px 0px 20px 0px #FED01A;
+	-o-box-shadow: 0px 0px 20px 0px #FED01A;
+	box-shadow: 0px 0px 20px 0px #FED01A;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#FED01A, Direction=NaN, Strength=20);
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -o-box-shadow 0.5s;
+	transition: box-shadow 0.5s;
+	background-color: #FED01A;
+	display:   inline-block;
+	text-decoration: none;
+  padding: 0.5vw 0.8vw 0.5vw 1vw;
+	-webkit-border-radius: 2vw;
+	-moz-border-radius: 2vw;
+	border-radius:2vw;
+	white-space: nowrap;
+	position: relative;
+	font-size: 1.4vw;
+	cursor: pointer;
+	color: #44555c;
+}
+
+a.button:hover {
+	-moz-box-shadow: 0px 0px 10px 0px #FED01A;
+	-webkit-box-shadow: 0px 0px 10px 0px #FED01A;
+	-o-box-shadow: 0px 0px 10px 0px #FED01A;
+	box-shadow: 0px 0px 10px 0px #FED01A;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#FED01A, Direction=NaN, Strength=20);
+	color: #000000;
+}
+
+a.button:active {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	color: #000000;
+}
+
+a.button:after {
+	content: url("../images/button_arrow.png");
+	margin-left: 10px;
+}
+
+a.button.inverted:after { display: none; }
+
+a.button.inverted:before {
+	content: url("../images/button_arrow_inverted.png");
+	margin-right: 10px;
+}
+
+a.button.color-inverted {
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=rgba(0, 0, 0, 0.5), Direction=NaN, Strength=20);
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+a.button.color-inverted:after { content: url("../images/button_arrow_color.png"); }
+a.button.inverted.color-inverted:before { content: url("../images/button_arrow_color_inverted.png"); }
+
+a.button.color-inverted:hover {
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=rgba(0, 0, 0, 0.5), Direction=NaN, Strength=20);
+	color: #FFFFFF;
+}
+
+
+h1 {
+    margin-top:0,5;
+    font-size: 3.998em;
+    margin-left :  auto;
+    margin-right :  auto;
+  }
+
+  div#video01.html {
+	-webkit-transition: width 0.4s;
+  transition: width 0.4s;
+	background-image: url('../images/desktop_accueil_1.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	position: absolute;
+	cursor: pointer;
+	height: 100%;
+	width: 30%;
+	z-index: 5;
+	left: 0px;
+	top: 0px;
+}
+
+
+/*-- #### Styles Pour La construction des pages #### */
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ol li {
+  border : 1px solid #000;
+  width : 160px;
+  margin : 6px;
+}
+
+li img {
+  width : 100%;
+}
+
+
+/*#### Colors in the page   ####*/
+
+#color-1 {
+ background-color: #44555c;
+}
+
+#color-2 {
+ background-color: #684819;
+}
+
+#color-3 {
+ background-color: #cd821d;
+}
+
+#color-4 {
+ background-color: #e6b220;
+}
+#color-5 {
+ background-color: #FED01A;
+}
+#color-6 {
+ background-color: #6EB594;
+}
+
+/*#### Color section in the style page   ####*/
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+ text-transform: uppercase;
+ font-size: 2em;
+
+}
+
+#colors li {
+  width:174px;
+  height:200px;
+  -webkit-clip-path:polygon(50% 0%, 100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  border-radius: 8px;
+  color : #fff;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+
+/*#### Styles sur les icons   ####*/
+
+.icons li {
+    display: inline-flex;;
+    width: 20px; height: 20px;
+    overflow: hidden;
+}
+
+.icons-del {
+    background: #F8D931;
+  }
+
+.icons > .icons {
+    position: relative;
+    left: -20px;
+    border-right: 20px solid transparent;
+    -webkit-filter: drop-shadow(20px 0);
+    filter: drop-shadow(20px 0);
+}
+
+section ul ol{
+  max-width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255,255,255,0.3);
+  padding:17px;
+}
+
+.center {
+  text-align: center; }
+
+/*#### Styles sur la video   ####*/
+
+video {
+  border : 2em solid #000;
+  border-radius: 1em;
+  display: block;
+  width : 480px;
+  margin: 2em auto;
+}
+
+/*#### Styles pour les navigations dans les pages   ####*/
+
+.page-navigation-block {
+  padding: 0.5em;
+  background: #44555c;
+  overflow: hidden;
+}
+
+.page-navigation-block a {
+  display: block;
+  max-width: 220px;
+  padding: 2em;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.next {
+  float: right;
+}
+
+.previous {
+  float: left;
+}
